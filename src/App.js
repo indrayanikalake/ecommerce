@@ -48,11 +48,9 @@ const App = () => {
   useEffect(() => {
     fetchProducts();
     fetchCart();
-  }, [cart]);
+  }, []);
 
-  useEffect(() => {
-    console.log(cart); // Verify the cart state after each update
-  }, [cart]);
+  
   
 
   return (

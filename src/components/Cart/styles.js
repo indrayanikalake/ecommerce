@@ -28,6 +28,7 @@ export default makeStyles((theme) => ({
   cardDetails: {
     display: 'flex',
     marginTop: '10%',
+    marginRight: '10rem',
     width: '100%',
     justifyContent: 'space-between',
   },
